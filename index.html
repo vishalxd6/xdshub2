@@ -1,33 +1,37 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VISHAL | XD's Shop</title>
+<title>✨ XD's Shop by VISHAL ✨</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://unpkg.com/scrollreveal"></script>
+<style>
+  body { scroll-behavior: smooth; }
+  .card:hover { transform: scale(1.05); }
+  .gradient-text { background: linear-gradient(90deg,#ff0080,#7928ca); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+</style>
 </head>
 <body class="bg-gray-900 text-white font-sans">
 
 <!-- Header -->
-<header class="text-center p-6 bg-gradient-to-r from-purple-600 to-pink-600 shadow-lg">
-  <h1 class="text-4xl font-bold">✨ XD's Shop by VISHAL ✨</h1>
-  <p class="mt-2">Configs • Combos • Private Channels • Courses • Tools • Methods</p>
+<header class="text-center p-8 bg-gradient-to-r from-purple-600 to-pink-600 shadow-xl">
+  <h1 class="text-5xl font-extrabold gradient-text">XD's Shop by VISHAL</h1>
+  <p class="mt-3 text-xl">Configs • Combos • Private Channels • Courses • Tools • Methods</p>
 </header>
 
 <!-- Search -->
 <div class="p-6 text-center">
-  <input type="text" id="searchBox" placeholder="🔍 Search products..." class="w-1/2 p-3 rounded-lg text-black">
+  <input type="text" id="searchBox" placeholder="🔍 Search products..." class="w-2/3 md:w-1/2 p-3 rounded-lg text-black shadow-lg">
 </div>
 
 <!-- Products Grid -->
-<section id="products" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+<section id="products" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-6">
 
 <!-- Configs -->
-<div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-category="configs">
-  <h2 class="text-xl font-bold">⚙️ Configs</h2>
-  <ul class="mt-2 list-disc list-inside">
+<div class="card bg-gray-800 p-6 rounded-3xl shadow-2xl transition-transform duration-300" data-category="configs">
+  <h2 class="text-2xl font-bold mb-3 gradient-text">⚙️ Configs</h2>
+  <ul class="list-disc list-inside space-y-1">
     <li>savastan0.tools</li>
     <li>disneyplus</li>
     <li>spotify</li>
@@ -48,13 +52,13 @@
     <li>windscribevpn</li>
     <li>Custom configs (cheap & private)</li>
   </ul>
-  <a href="https://t.me/VISHAL_8_5" class="mt-4 block bg-pink-600 text-center py-2 rounded-lg">💳 Buy Now</a>
+  <a href="https://t.me/VISHAL_8_5" class="mt-5 block bg-pink-600 text-center py-2 rounded-xl font-bold hover:bg-pink-500 transition">💳 Buy Now</a>
 </div>
 
 <!-- Courses -->
-<div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-category="courses">
-  <h2 class="text-xl font-bold">🎓 Courses</h2>
-  <ul class="mt-2 list-disc list-inside">
+<div class="card bg-gray-800 p-6 rounded-3xl shadow-2xl transition-transform duration-300" data-category="courses">
+  <h2 class="text-2xl font-bold mb-3 gradient-text">🎓 Courses</h2>
+  <ul class="list-disc list-inside space-y-1">
     <li>Premium courses (Basic → Advanced Cracking)</li>
     <li>Config Making Course</li>
     <li>Combo Making Easy Method</li>
@@ -63,72 +67,72 @@
     <li>.OPK Config Making</li>
     <li>.svb / Android API Config Making</li>
   </ul>
-  <a href="https://t.me/VISHAL_8_5" class="mt-4 block bg-pink-600 text-center py-2 rounded-lg">💳 Buy Now</a>
+  <a href="https://t.me/VISHAL_8_5" class="mt-5 block bg-pink-600 text-center py-2 rounded-xl font-bold hover:bg-pink-500 transition">💳 Buy Now</a>
 </div>
 
 <!-- Combos -->
-<div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-category="combos">
-  <h2 class="text-xl font-bold">📂 Combos</h2>
-  <ul class="mt-2 list-disc list-inside">
+<div class="card bg-gray-800 p-6 rounded-3xl shadow-2xl transition-transform duration-300" data-category="combos">
+  <h2 class="text-2xl font-bold mb-3 gradient-text">📂 Combos</h2>
+  <ul class="list-disc list-inside space-y-1">
     <li>Fresh Gaming Combos</li>
     <li>Shopping Combos</li>
     <li>UHQ Mail Access</li>
     <li>Custom Dumps</li>
   </ul>
-  <a href="https://t.me/VISHAL_8_5" class="mt-4 block bg-pink-600 text-center py-2 rounded-lg">💳 Buy Now</a>
+  <a href="https://t.me/VISHAL_8_5" class="mt-5 block bg-pink-600 text-center py-2 rounded-xl font-bold hover:bg-pink-500 transition">💳 Buy Now</a>
 </div>
 
 <!-- Private Channel -->
-<div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-category="private">
-  <h2 class="text-xl font-bold">🔒 Private Channel Access</h2>
-  <ul class="mt-2 list-disc list-inside">
+<div class="card bg-gray-800 p-6 rounded-3xl shadow-2xl transition-transform duration-300" data-category="private">
+  <h2 class="text-2xl font-bold mb-3 gradient-text">🔒 Private Channel Access</h2>
+  <ul class="list-disc list-inside space-y-1">
     <li>Exclusive CC Dumps</li>
     <li>Private Configs & Combos</li>
     <li>Daily Fresh Updates</li>
     <li>Private Logs & ULPS</li>
   </ul>
-  <a href="https://t.me/VISHAL_8_5" class="mt-4 block bg-pink-600 text-center py-2 rounded-lg">💳 Buy Now</a>
+  <a href="https://t.me/VISHAL_8_5" class="mt-5 block bg-pink-600 text-center py-2 rounded-xl font-bold hover:bg-pink-500 transition">💳 Buy Now</a>
 </div>
 
 <!-- Tools -->
-<div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-category="tools">
-  <h2 class="text-xl font-bold">🛠️ Tools</h2>
-  <ul class="mt-2 list-disc list-inside">
+<div class="card bg-gray-800 p-6 rounded-3xl shadow-2xl transition-transform duration-300" data-category="tools">
+  <h2 class="text-2xl font-bold mb-3 gradient-text">🛠️ Tools</h2>
+  <ul class="list-disc list-inside space-y-1">
     <li>XD Domain Extractor</li>
     <li>XD Dorker Pro</li>
     <li>Crunchyroll Checker</li>
     <li>Combo Dumper Tool</li>
     <li>CC Checker Bot</li>
   </ul>
-  <a href="https://t.me/VISHAL_8_5" class="mt-4 block bg-pink-600 text-center py-2 rounded-lg">💳 Buy Now</a>
+  <a href="https://t.me/VISHAL_8_5" class="mt-5 block bg-pink-600 text-center py-2 rounded-xl font-bold hover:bg-pink-500 transition">💳 Buy Now</a>
 </div>
 
 <!-- Methods -->
-<div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition" data-category="methods">
-  <h2 class="text-xl font-bold">📜 Private Methods</h2>
-  <ul class="mt-2 list-disc list-inside">
+<div class="card bg-gray-800 p-6 rounded-3xl shadow-2xl transition-transform duration-300" data-category="methods">
+  <h2 class="text-2xl font-bold mb-3 gradient-text">📜 Private Methods</h2>
+  <ul class="list-disc list-inside space-y-1">
     <li>Carding Methods</li>
     <li>Bypass Methods</li>
     <li>Cracking Secrets</li>
   </ul>
-  <a href="https://t.me/VISHAL_8_5" class="mt-4 block bg-pink-600 text-center py-2 rounded-lg">💳 Buy Now</a>
+  <a href="https://t.me/VISHAL_8_5" class="mt-5 block bg-pink-600 text-center py-2 rounded-xl font-bold hover:bg-pink-500 transition">💳 Buy Now</a>
 </div>
 
 </section>
 
 <!-- About Me -->
-<section id="about" class="p-8 text-center bg-gradient-to-r from-purple-600 to-pink-600 mt-10 rounded-2xl">
-<h2 class="text-3xl font-bold">👤 About Me</h2>
-<p class="mt-4 max-w-3xl mx-auto">
+<section id="about" class="p-10 text-center bg-gradient-to-r from-purple-600 to-pink-600 mt-12 rounded-3xl">
+<h2 class="text-4xl font-extrabold gradient-text mb-4">👤 About Me</h2>
+<p class="mt-4 max-w-4xl mx-auto text-lg leading-relaxed">
 Yo! I'm <b>VISHAL</b> aka <b>Codes Cracker</b> 👨‍💻  
-Anime Lover 🎌 | Tool Maker ⚡ | Config Maker 🔧 | Course Maker 🎓 | Method Finder 🔍 | Combo Dumper 📂 | Script Creator 💻.  
-I provide HQ configs, combos, methods, private content & full paid courses from Basic → Advanced Cracking.  
+Anime Lover 🎌 | Tool Maker ⚡ | Config Maker 🔧 | Course Maker 🎓 | Method Finder 🔍 | Combo Dumper 📂 | Script Creator 💻  
+I provide HQ configs, combos, methods, private content & full paid courses from Basic → Advanced Cracking.
 </p>
-<a href="https://t.me/VISHAL_8_5" class="mt-6 inline-block bg-black px-6 py-3 rounded-lg shadow-lg">📩 Contact Me</a>
+<a href="https://t.me/VISHAL_8_5" class="mt-6 inline-block bg-black px-8 py-3 rounded-xl shadow-lg font-bold hover:bg-gray-800 transition">📩 Contact Me</a>
 </section>
 
 <!-- Footer -->
-<footer class="text-center p-6 mt-10 text-gray-400">
+<footer class="text-center p-6 mt-12 text-gray-400">
 © 2025 XD's Shop by VISHAL | Built with ❤️
 </footer>
 
@@ -140,8 +144,9 @@ document.getElementById("searchBox").addEventListener("input", function(){
     card.style.display = card.innerText.toLowerCase().includes(value) ? "block" : "none";
   });
 });
-// Animations
-ScrollReveal().reveal('#products > div', {delay: 200, duration: 800, scale: 0.9, distance: '20px'});
+
+// Scroll animations
+ScrollReveal().reveal('.card', {delay:200, duration:800, scale:0.9, distance:'30px'});
 </script>
 
 </body>
